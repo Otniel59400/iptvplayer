@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">IPTV Player</string>
+    <string name="app_subtitle">Leitor de IPTV para Projetor e TV</string>
+    <string name="splash_tagline">Televisão e multimédia no seu projetor</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_playlists">Playlists</string>
+    <string name="nav_channels">Canais</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_users">Utilizadores</string>
+    <string name="nav_checker">Verificar canais</string>
+    <string name="nav_settings">Definições</string>
+
+    <!-- Sections -->
+    <string name="section_continue_watching">Continuar a assistir</string>
+    <string name="section_recent_channels">Canais recentes</string>
+    <string name="section_favorites">Favoritos</string>
+    <string name="section_my_playlists">Minhas playlists</string>
+
+    <!-- Actions -->
+    <string name="action_search">Pesquisar</string>
+    <string name="action_search_hint">Pesquisar canais, categorias ou streams...</string>
+    <string name="action_add_playlist">Adicionar playlist</string>
+    <string name="action_create_playlist">Criar playlist</string>
+    <string name="action_import_m3u_file">Ficheiro M3U local</string>
+    <string name="action_import_m3u_url">Endereço URL (M3U)</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_check_channels">Verificar canais</string>
+    <string name="action_check_all">Iniciar teste de canais</string>
+    <string name="action_play">Reproduzir</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_select">Selecionar</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_add_user">Adicionar utilizador</string>
+    <string name="action_open">Abrir</string>
+
+    <!-- Statuses -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_checking">A verificar...</string>
+    <string name="status_unknown">Indeterminado</string>
+    <string name="status_live">EM DIRETO</string>
+
+    <!-- Empty States -->
+    <string name="empty_continue_watching">Nenhum canal em reprodução recente</string>
+    <string name="empty_recent_channels">Ainda não assistiu a nenhum canal</string>
+    <string name="empty_favorites">Ainda não marcou nenhum canal como favorito</string>
+    <string name="empty_playlists">Nenhuma playlist adicionada</string>
+    <string name="empty_playlists_desc">Adicione uma lista M3U para carregar os seus canais de televisão</string>
+    <string name="empty_channels">Nenhum canal disponível</string>
+    <string name="empty_channels_desc">Importe ou crie uma playlist para começar a ver canais</string>
+    <string name="empty_users_desc">Crie perfis independentes para cada membro da família</string>
+
+    <!-- Settings -->
+    <string name="settings_display_title">Ecrã e Projeção (16:9)</string>
+    <string name="settings_display_desc">Otimizado para projetor HY300 e monitores de alta nitidez</string>
+    <string name="settings_performance_title">Desempenho e Recursos</string>
+    <string name="settings_performance_desc">Consumo ultraleve de RAM e processador ativo</string>
+    <string name="settings_remote_title">Comando Remoto e Rato</string>
+    <string name="settings_remote_desc">Suporte total para navegação D-pad física e cursor</string>
+    <string name="settings_language_title">Idioma da Aplicação</string>
+    <string name="settings_language_desc">Português (Angola)</string>
+    <string name="settings_about_title">Informação da Aplicação</string>
+    <string name="settings_version">Versão 1.0.0 (Stage 1 — Fundação)</string>
+
+    <!-- Quick info & Hints -->
+    <string name="badge_projector_optimized">Projetor HY300 16:9</string>
+    <string name="user_default_name">Utilizador Principal</string>
+    <string name="user_guest_name">Convidado</string>
+    <string name="checker_title">Verificador de Estado de Streams</string>
+    <string name="checker_desc">Módulo preparado para teste concorrente de canais online/offline com medição de latência</string>
+    <string name="banner_tip_remote">Dica: Utilize o comando (D-pad) com o botão OK ou o rato para navegar em qualquer elemento do ecrã.</string>
+    <string name="placeholder_future_notice">Módulo arquitetural preparado para a próxima fase de desenvolvimento</string>
+    <string name="stage_notice">Fase 1: Fundação, Tema, Navegação D-pad/Rato e Estrutura</string>
+    <!-- Stage 2 User System Strings -->
+    <string name="welcome_iptv_title">Bem-vindo ao IPTV Player</string>
+    <string name="welcome_first_user_subtitle">Crie o primeiro utilizador para começar.</string>
+    <string name="field_first_user_name">Nome do utilizador</string>
+    <string name="field_first_user_pin">PIN ou palavra-passe</string>
+    <string name="field_first_user_pin_confirm">Confirmar PIN ou palavra-passe</string>
+    <string name="error_empty_first_user_name">O nome do utilizador não pode estar vazio</string>
+    <string name="error_empty_first_user_pin">Introduza um PIN ou palavra-passe</string>
+    <string name="error_pin_password_mismatch">O PIN ou palavra-passe não coincide</string>
+    <string name="profile_select_title">Quem está a assistir?</string>
+    <string name="profile_select_subtitle">Selecione o seu perfil para aceder aos seus canais e favoritos</string>
+    <string name="enter_pin_title">Introduza o PIN</string>
+    <string name="enter_pin_for_user">Introduza o PIN para o perfil %1$s</string>
+    <string name="pin_incorrect">PIN incorreto. Tente novamente.</string>
+    <string name="action_login">Entrar</string>
+    <string name="action_switch_user">Trocar de utilizador</string>
+    <string name="action_logout">Terminar sessão</string>
+    <string name="action_create_user">Criar utilizador</string>
+    <string name="action_edit_user">Editar utilizador</string>
+    <string name="action_change_pin">Alterar PIN</string>
+    <string name="setup_first_profile_title">Criar Primeiro Utilizador</string>
+    <string name="setup_first_profile_desc">Configure o seu perfil pessoal para gerir canais, favoritos e definições no projetor.</string>
+    <string name="field_name">Nome de utilizador</string>
+    <string name="field_display_name">Nome de exibição (opcional)</string>
+    <string name="field_pin">PIN ou palavra-passe (opcional)</string>
+    <string name="field_pin_confirm">Confirmar PIN ou palavra-passe</string>
+    <string name="field_new_pin">Novo PIN (deixe em branco para manter)</string>
+    <string name="error_empty_name">O nome não pode estar vazio</string>
+    <string name="error_pin_mismatch">Os PINs introduzidos não coincidem</string>
+    <string name="error_duplicate_username">Já existe um utilizador com este nome</string>
+    <string name="error_invalid_pin">PIN inválido. Introduza entre 4 e 8 dígitos</string>
+    <string name="confirm_delete_user_title">Eliminar utilizador</string>
+    <string name="confirm_delete_user_message">Tem a certeza de que pretende eliminar este utilizador?</string>
+    <string name="confirm_delete_user_warning">Esta ação é irreversível e removerá as listas e favoritos deste perfil.</string>
+    <string name="user_created_success">Utilizador criado com sucesso</string>
+    <string name="user_updated_success">Perfil atualizado com sucesso</string>
+    <string name="user_deleted_success">Utilizador eliminado com sucesso</string>
+    <string name="greeting_user">Olá, %1$s</string>
+    <string name="active_profile_label">Perfil Ativo</string>
+    <string name="pin_protected_label">PIN Ativado</string>
+    <string name="no_pin_label">Sem PIN</string>
+    <string name="last_login_prefix">Último acesso: %1$s</string>
+    <string name="user_manage_subtitle">Gira perfis independentes com histórico e favoritos separados</string>
+
+    <!-- Stage 3 Playlist System Strings -->
+    <string name="action_rename">Renomear</string>
+    <string name="action_duplicate">Duplicar</string>
+    <string name="action_move_up">Mover para cima</string>
+    <string name="action_move_down">Mover para baixo</string>
+    <string name="action_choose_import_type">Como pretende adicionar a playlist?</string>
+    <string name="dialog_add_playlist_title">Adicionar Playlist</string>
+    <string name="dialog_add_playlist_subtitle">Selecione uma fonte de canais M3U/M3U8 para a sua TV</string>
+    <string name="dialog_add_url_title">Adicionar Playlist por URL</string>
+    <string name="dialog_add_file_title">Importar Ficheiro Local</string>
+    <string name="dialog_rename_title">Renomear Playlist</string>
+    <string name="dialog_delete_playlist_title">Eliminar Playlist</string>
+    <string name="dialog_delete_playlist_message">Tem a certeza de que pretende eliminar a playlist \"%1$s\" e todos os seus canais associados?</string>
+    <string name="field_playlist_name">Nome da playlist</string>
+    <string name="field_playlist_url">URL da playlist (M3U / M3U8)</string>
+    <string name="field_playlist_url_hint">http:// ou https://exemplo.com/lista.m3u</string>
+    <string name="playlist_type_local">Playlist Local (Ficheiro)</string>
+    <string name="playlist_type_url">Playlist Remota (URL)</string>
+    <string name="playlist_type_custom">Playlist Personalizada</string>
+    <string name="playlist_channels_count">%1$d canais</string>
+    <string name="playlist_status_active">Ativa</string>
+    <string name="playlist_status_synced">Sincronizada</string>
+    <string name="playlist_status_syncing">A sincronizar...</string>
+    <string name="playlist_import_progress_title">A processar playlist…</string>
+    <string name="playlist_importing_desc">A transferir e organizar os canais de televisão na base de dados do projetor…</string>
+    <string name="playlist_channels_found">%1$d canais identificados</string>
+    <string name="playlist_imported_success">Playlist \"%1$s\" importada com sucesso (%2$d canais)</string>
+    <string name="playlist_deleted_success">Playlist eliminada</string>
+    <string name="playlist_duplicated_success">Playlist duplicada com sucesso</string>
+    <string name="playlist_renamed_success">Playlist renomeada com sucesso</string>
+    <string name="playlist_refreshed_success">Playlist \"%1$s\" atualizada com sucesso (%2$d canais)</string>
+    <string name="error_empty_playlist_name">O nome da playlist não pode estar vazio</string>
+    <string name="error_invalid_url">URL inválido. Introduza um endereço que comece por http:// ou https://</string>
+    <string name="error_network_playlist">Falha ao ligar ao servidor da playlist. Verifique a ligação à internet.</string>
+    <string name="error_parse_m3u">Nenhum canal válido foi encontrado no conteúdo M3U fornecido.</string>
+    <string name="error_duplicate_playlist_name">Já existe uma playlist com este nome</string>
+    <string name="updated_just_now">Atualizada agora</string>
+    <string name="updated_ago_min">Atualizada há %1$d min</string>
+    <string name="updated_ago_hours">Atualizada há %1$d h</string>
+    <string name="updated_ago_days">Atualizada há %1$d d</string>
+
+    <!-- Stage 4 Home Dashboard Strings -->
+    <string name="welcome_home_title">Bem-vindo ao IPTV Player</string>
+    <string name="welcome_home_desc">Comece por adicionar uma playlist para carregar os seus canais.</string>
+    <string name="action_add_playlist_primary">+ Adicionar playlist</string>
+    <string name="action_view_playlists">Ver playlists</string>
+    <string name="action_view_channels">Ver canais</string>
+    <string name="section_quick_actions">Ações rápidas</string>
+    <string name="empty_recent_channels_notice">Ainda não existem canais recentes.</string>
+    <string name="empty_favorites_notice">Não tem canais favoritos.</string>
+    <string name="playlist_type_local_short">Playlist local</string>
+    <string name="playlist_type_url_short">Playlist URL</string>
+    <string name="playlist_channels_count_formatted">%1$s canais</string>
+    <string name="action_open_playlist">Abrir canais</string>
+    <string name="dialog_action_cancel">Cancelar</string>
+
+    <!-- Stage 4 Channels & Favorites Strings -->
+    <string name="channels_header_title">Canais</string>
+    <string name="favorites_header_title">Os meus favoritos</string>
+    <string name="empty_channels_no_playlist_notice">Adicione uma playlist para começar.</string>
+    <string name="empty_playlist_no_channels_notice">Esta playlist não contém canais.</string>
+    <string name="empty_search_no_results_notice">Nenhum canal encontrado.</string>
+    <string name="select_playlist_title">Selecionar playlist</string>
+    <string name="all_playlists_chip">Todas as listas</string>
+    <string name="category_all">Todos</string>
+    <string name="search_channels_prompt">Pesquisar canais...</string>
+    <string name="sort_dialog_title">Ordenar por</string>
+    <string name="sort_option_name_asc">Nome A → Z</string>
+    <string name="sort_option_name_desc">Nome Z → A</string>
+    <string name="sort_option_category">Categoria</string>
+    <string name="sort_option_recent">Mais recentes</string>
+    <string name="sort_option_most_played">Mais vistos</string>
+    <string name="channel_info_title">Informação do canal</string>
+    <string name="channel_info_name">Nome</string>
+    <string name="channel_info_category">Categoria</string>
+    <string name="channel_info_tvg_id">TVG ID</string>
+    <string name="channel_info_tvg_name">Nome TVG</string>
+    <string name="channel_info_status">Estado</string>
+    <string name="channel_info_last_check">Última verificação</string>
+    <string name="channel_info_never_checked">Nunca verificado</string>
+    <string name="channel_info_not_specified">Não especificado</string>
+    <string name="action_play_channel_btn">Reproduzir canal</string>
+    <string name="action_favorite_add">Adicionar aos favoritos</string>
+    <string name="action_favorite_remove">Remover dos favoritos</string>
+    <string name="action_close_dialog">Fechar</string>
+    <string name="action_clear_search_btn">Limpar pesquisa</string>
+    <string name="load_more_channels">Carregar mais canais</string>
+
+    <!-- Stage 5 Automatic Channel Checker Strings -->
+    <string name="checker_header_title">Verificar canais</string>
+    <string name="checker_action_start">▶ Iniciar verificação</string>
+    <string name="checker_action_stop">Parar verificação</string>
+    <string name="checker_action_recheck">Verificar novamente</string>
+    <string name="checker_status_interrupted">Verificação interrompida.</string>
+    <string name="checker_status_completed">Verificação concluída com sucesso.</string>
+    <string name="checker_verifying_progress">Verificando %1$s de %2$s</string>
+    <string name="checker_verifying_current">A verificar: %1$s</string>
+    <string name="checker_stat_total">Total de canais</string>
+    <string name="checker_stat_online">Online</string>
+    <string name="checker_stat_offline">Offline</string>
+    <string name="checker_stat_checking">A verificar</string>
+    <string name="checker_stat_indeterminate">Indeterminado</string>
+    <string name="checker_stat_remaining">Restantes</string>
+    <string name="checker_filter_all">Todos</string>
+    <string name="checker_sort_name_asc">Nome A → Z</string>
+    <string name="checker_sort_name_desc">Nome Z → A</string>
+    <string name="checker_sort_status">Estado</string>
+    <string name="checker_sort_latency">Latência</string>
+    <string name="checker_sort_last_checked">Última verificação</string>
+    <string name="checker_no_playlist_available">Nenhuma playlist selecionada para verificação.</string>
+    <string name="checker_select_playlist_prompt">Selecione uma playlist para verificar os streams.</string>
+    <string name="home_channel_status_title">Estado dos canais</string>
+
+    <!-- Stage 6 Real IPTV Player Strings -->
+    <string name="player_loading">Carregando…</string>
+    <string name="player_buffering">Buffering…</string>
+    <string name="player_reconnecting">Reconectando…</string>
+    <string name="player_reconnecting_attempt">Reconectando (%1$d/%2$d)…</string>
+    <string name="player_error_playback">Não foi possível reproduzir este canal.</string>
+    <string name="player_action_retry">Repetir</string>
+    <string name="player_action_back">Voltar</string>
+    <string name="player_action_play">Reproduzir</string>
+    <string name="player_action_pause">Pausa</string>
+    <string name="player_channels">Canais</string>
+    <string name="player_search_channels">Pesquisar canais...</string>
+    <string name="player_favorite_add">Favoritar</string>
+    <string name="player_favorite_remove">Remover dos favoritos</string>
+    <string name="player_live_delay_unknown">🔴 LIVE · atraso desconhecido</string>
+    <string name="player_live_delay_format">🔴 LIVE · %1$ss</string>
+    <string name="player_mute">Silenciar</string>
+    <string name="player_unmute">Ativar som</string>
+    <string name="player_aspect_fit">Ajustar (16:9)</string>
+    <string name="player_aspect_fill">Preencher</string>
+</resources>

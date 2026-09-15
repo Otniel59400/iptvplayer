@@ -1,0 +1,6 @@
+{
+  "name": "IPTV Player",
+  "description": "Leitor de IPTV nativo otimizado para projetores Android (como HY300), grandes ecrãs 16:9, controlo remoto D-pad e rato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

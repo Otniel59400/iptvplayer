@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- TV Outer Frame with sleek rounded corners -->
+    <path
+        android:fillColor="#152033"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:pathData="M12,18 L84,18 A6,6 0 0 1 90,24 L90,66 A6,6 0 0 1 84,72 L12,72 A6,6 0 0 1 6,66 L6,24 A6,6 0 0 1 12,18 Z" />
+    <!-- TV Screen Inner -->
+    <path
+        android:fillColor="#0D1424"
+        android:pathData="M14,24 L82,24 L82,66 L14,66 Z" />
+    <!-- Play symbol / Screen wave graphic -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M42,36 L58,45 L42,54 Z" />
+    <!-- TV Stand Neck -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M44,72 L52,72 L52,80 L44,80 Z" />
+    <!-- TV Stand Base -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M32,80 L64,80 A3,3 0 0 1 67,83 L67,84 A1,1 0 0 1 66,85 L30,85 A1,1 0 0 1 29,84 L29,83 A3,3 0 0 1 32,80 Z" />
+    <!-- Status LED Indicator -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M84,69 A1.5,1.5 0 1 0 87,69 A1.5,1.5 0 1 0 84,69 Z" />
+</vector>
