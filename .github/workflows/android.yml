@@ -1,33 +1,38 @@
-name: Build Android APK
+name: Criar APK para Android
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   build:
+    name: Compilar APK
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./iptv-player
+
     steps:
-      - name: Checkout
+      - name: Baixar código
         uses: actions/checkout@v4
 
-      - name: Set up JDK
+      - name: Configurar Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+      - name: Configurar Gradle
+        uses: gradle/actions/setup-gradle@v4
 
-      - name: Build APK
-        run: ./gradlew assembleDebug
+      - name: Compilar APK
+        run: gradle assembleDebug
 
-      - name: Upload APK
+      - name: Enviar APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: IPTVPlayer-APK
+          path: iptv-player/app/build/outputs/apk/debug/app-debug.apk
